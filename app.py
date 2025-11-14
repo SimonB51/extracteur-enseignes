@@ -5,6 +5,7 @@ import pandas as pd
 import io
 from PIL import Image
 
+
 st.set_page_config(page_title="Extracteur d'enseignes PDF", page_icon="🛍️")
 st.title("🛍️ Extracteur d’Enseignes OCR depuis un PDF")
 st.markdown("**Dépose ton fichier PDF contenant les enseignes (scannés ou non), traitement avec EasyOCR, et récupère un fichier Excel propre.**")
